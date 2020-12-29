@@ -31,11 +31,13 @@
   padding: 10px;
   border-radius: 10px;
   width: fit-content;
+  margin-top: 20px;
   background-color: #ffffff;
 }
 
 .chat_reciever {
   margin-left: auto;
+  margin-top: 20px;
   background-color: #dcf8c6;
 }
 
@@ -64,4 +66,33 @@
   background-position: center;
   padding: 30px;
   overflow: scroll;
+}
+
+.chat_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid lightgray;
+}
+
+.chat_footer > form {
+  flex: 1;
+  display: flex;
+}
+
+.chat_footer > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+}
+
+.chat_footer > form > button {
+  display: none;
+}
+
+.chat_footer > .MuiSvgIcon-root {
+  padding: 10px;
+  color: gray;
 }
